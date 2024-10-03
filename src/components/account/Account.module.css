@@ -1,0 +1,316 @@
+.container {
+  display: flex;
+  width: 100%;
+  
+    @media only screen and (max-width: 600px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+    }
+}
+
+.sidebar {
+  @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+@media only screen and (max-width: 600px) {
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+.basicRowVertical {
+  display: flex;
+  column-gap: 10px !important;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tabMenuWrapper {
+  background-color: #f1f2f3;
+  border-radius: 0.3rem;
+  
+    @media only screen and (max-width: 600px) {
+      margin: 0rem 1rem;
+    }
+}
+
+.accountMenuItem {
+  display: flex;
+}
+
+.contactInfoWrapper {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+  gap: 1rem;
+@media only screen and (max-width: 600px) {
+    margin: 0rem 1rem;
+
+  }
+}
+
+/* .contactInfoWrapper input,
+.contactInfoWrapper textarea {
+  width: 30rem;
+}
+
+*/
+.speakingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+    @media only screen and (max-width: 600px) {
+      margin: 0rem 1rem;
+  
+    }
+}
+
+.tabContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+@media only screen and (max-width: 600px) {
+    padding: 0 0.3rem;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+@media only screen and (max-width: 760px) {
+    margin-top: 2rem;
+  }
+}
+
+.uploadButton {
+  margin: 1.5rem 0rem 0rem 2.4rem !important;
+  
+    @media only screen and (max-width: 600px) {
+      margin: 1.5rem 0rem 0rem 1.4rem !important;
+    }
+}
+
+.uploadImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.uploadImageContainer img {
+  width: 10rem;
+  border-radius: 4px;
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.visibilityWrapper {
+  display: flex;
+  border-radius: 0.5rem;
+  border: 1px solid #f1f2f3;
+  gap: 1rem;
+  padding: 1rem;
+  width: fit-content;
+  margin-bottom: 1rem;
+  @media only screen and (max-width: 600px) {
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      padding: 1rem 0.5rem;
+  
+    }
+}
+
+.profileOptionsWrapper {
+  border-radius: 0.5rem;
+  border: 1px solid #f1f2f3;
+
+}
+
+.opportunitiesWrapper {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 4px;
+  border: 1px solid #f1f2f3;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.speakingTopicsFieldsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 1rem;
+}
+
+.tabItemWrapper {
+  @media only screen and (max-width: 600px) {
+    max-width: 100% !important;
+  }
+}
+.tabItemWrapper:not(:last-of-type) {
+  border-bottom: 1px solid #fff;
+}
+
+.tabMenuProfileAndConfiguration {
+  background-color: #f1f2f3;
+}
+
+.tabMenuWrapperIcons {
+  @media only screen and (max-width: 600px) {
+    font-size: 0.8rem !important;
+    text-transform: capitalize !important;
+    padding: 0.2rem !important;
+    min-width: auto !important;
+  }
+}
+.currentSignMethodWrapper {
+  display: flex;
+  margin: 1rem 2rem 0rem 2rem;
+  column-gap: 1rem;
+}
+
+.socialButtonsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 30vh;
+  margin: 1rem 2rem 0rem 2rem;
+  row-gap: 1rem;
+@media only screen and (max-width: 600px) {
+    justify-content: center;
+    width: 80%;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem 1rem 2rem;
+  row-gap: 1rem;
+  justify-content: center;
+    align-items: center;
+  
+    @media only screen and (max-width: 600px) {
+      text-align: center;
+      width: 90%;
+      margin: 1rem;
+  
+    }
+  }
+  
+  
+  
+  .FormGroup {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 1rem;
+  
+    @media only screen and (max-width: 600px) {
+      justify-content: center;
+  
+    }
+  
+  }
+  
+  .FormControlLabel {
+    display: flex !important;
+    flex-direction: column !important;
+  
+    @media query and (max-width: 600px) {
+      flex-direction: column !important;
+    }
+  }
+  
+  .timePicker {
+  
+  
+    @media query and (max-width: 600px) {
+  
+      width: 100% !important;
+    }
+  }
+  
+  .multiSelect {
+    width: 50vw !important;
+  
+    @media query and (max-width: 600px) {
+      white-space: normal !important;
+      width: 100% !important;
+    }
+  }
+  
+  
+  .buttonSave {
+    width: 20vh;
+    margin: auto !important;
+}
+
+.usersWrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 2rem 2rem 0rem;
+  column-gap: 4rem;
+@media only screen and (max-width: 600px) {
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1rem;
+  }
+}
+
+.adminUsersListWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.adminUsersWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.horizontalWrapper {
+  display: flex;
+  column-gap: 1rem;
+@media only screen and (max-width: 600px) {
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+
+.columnButtons {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}

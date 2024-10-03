@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100svw;
+  height: 100svh;
+  @media (max-width: 600px) {
+    align-items: unset;
+  }
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  padding: 2rem;
+  width: 22rem;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.logoWrapper img {
+  width: 15rem;
+  margin-bottom: 2rem;
+}

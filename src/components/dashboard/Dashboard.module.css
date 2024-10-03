@@ -1,0 +1,86 @@
+.containerDashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerPitches {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+.pitchesCount {
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(88, 86, 214, 0.1);
+  padding: 1rem;
+
+  @media only screen and (max-width: 480px) {
+    width: 90%;
+  }
+}
+
+.containerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.moduleWarpers {
+  display: flex;
+  position: relative;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.selecButton {
+  position: absolute;
+  margin-left: 36%;
+  top: 0.7rem;
+
+  @media only screen and (max-width: 1224px) {
+    margin-left: 32%;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    margin-left: 68%;
+  }
+
+  @media only screen and (max-width: 800px) {
+    margin-left: 66%;
+  }
+
+  @media only screen and (max-width: 660px) {
+    margin-left: 62%;
+    top: 0.5rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    margin-left: 58%;
+  }
+}
+
+.select {
+  border: none;
+  outline: none;
+  background: none;
+  font-family:
+    Open Sans,
+    Roboto,
+    Arial;
+
+  @media only screen and (max-width: 660px) {
+    font-size: 12px;
+  }
+}

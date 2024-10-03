@@ -1,0 +1,23 @@
+img.loading-icon {
+  width: 1.5rem;
+  height: auto;
+}
+
+@media (max-width: 960px) {
+  img.loading-icon {
+    width: 1rem;
+  }
+}
+
+.loading-icon.hidden {
+  display: none;
+}
+
+.loading-icon.standard-loading {
+  font-size: 1.3rem;
+  color: rgb(169, 169, 169);
+}
+
+img.loading-icon.loading-huge {
+  width: 5rem;
+}

@@ -1,0 +1,158 @@
+.transactionInProcess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.planOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userPlanWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: rgba(241, 242, 243, 1);
+  max-width: 25rem;
+
+  @media only screen and (max-width: 480px) {
+    max-width: unset;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+.cancelPlanWrapper {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.itemsMappedWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+
+  @media only screen and (max-width: 1000px) {
+    gap: 2rem;
+  }
+}
+
+.planItem {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  width: 20rem;
+  overflow: clip;
+  border: 1px solid #f1f2f3;
+
+  @media only screen and (max-width: 1000px) {
+    width: 15rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 90%;
+  }
+}
+
+.planItem .header {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  background-color: rgba(88, 86, 214, 0.1);
+}
+
+.planItem .body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.bundleItem {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  width: 20rem;
+  overflow: clip;
+  border: 1px solid #f1f2f3;
+
+  @media only screen and (max-width: 1000px) {
+    width: 15rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 90%;
+  }
+}
+
+.bundleItem .header {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  border-radius: 4px 4px 0 0;
+  background-color: rgba(88, 86, 214, 0.1);
+}
+
+.bundleItem .body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.paymentForm {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(241, 242, 243, 1);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  @media only screen and (max-width: 480px) {
+    width: auto;
+    padding: 1rem;
+    margin: 0 1rem;
+  }
+}
+
+.paymentForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardWrapper {
+  background-color: rgba(241, 242, 243, 1);
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  width: 80%;
+}
+
+.security {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.paymentConfirmedWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+.socialButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f1f2f3;
+}
+
+.credentialsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.forgotPasswordClick {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.forgotPasswordClick:hover {
+  text-decoration: underline;
+}
+
+.usagePolicyClick {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.usagePolicyClick:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+.wrapper {
+  font-family: 'Open Sans';
+  padding: 2rem;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

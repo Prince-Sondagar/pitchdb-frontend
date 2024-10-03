@@ -1,0 +1,302 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goBackAndTitle {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+
+.filtersWrapper {
+  display: flex;
+  gap: 1rem;
+
+  @media only screen and (max-width: 600px) {
+    width: 90%;
+    flex-direction: column;
+  }
+}
+
+.filterInputSelectWrapper {
+  width: 10.8rem;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.selectWrappers {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.contactItemsWrapper {
+  border: 1px solid #d1d2d3;
+  border-radius: 4px;
+  margin: 1rem 0;
+
+  @media only screen and (max-width: 850px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 850px) {
+    width: 90%;
+  }
+}
+
+.totalWrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f2f3;
+  padding: 1rem;
+}
+
+.listBody {
+  padding: 0 1rem;
+
+  @media only screen and (max-width: 600px) {
+    padding: 0 0.25rem;
+  }
+}
+
+.contactItemsWrapper ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.listItemWrapper {
+  display: flex;
+  gap: 1rem;
+  border-top: 1px solid #f1f2f3;
+  border-bottom: 1px solid #f1f2f3;
+  border-radius: 4px;
+  align-items: start;
+
+  @media only screen and (max-width: 850px) {
+    flex-direction: column;
+  }
+}
+
+.imageAndTextMobileWrapper {
+  display: flex;
+  gap: 1rem;
+
+  @media only screen and (max-width: 850px) {
+    width: 100%;
+  }
+}
+
+.itemImageWrapper {
+  width: 3rem;
+  max-height: 3.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+}
+
+.itemText {
+  width: 21.5rem;
+
+  @media only screen and (max-width: 1000px) {
+    width: 15rem;
+  }
+
+  @media only screen and (max-width: 850px) {
+    width: 12rem;
+  }
+}
+
+.tagAndVisibilityMobileWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tagWrapper {
+  border-radius: 4px;
+  padding: 0.25rem;
+  display: flex;
+  width: 7rem;
+  justify-content: center;
+}
+
+.visibilityButton {
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.detailsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.headerDetail {
+  background-color: #f1f2f3;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 4px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.itemDetailedImageWrapper {
+  width: 10rem;
+  max-height: 12rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.itemWebsite {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.itemWebsite a {
+  text-decoration: none;
+  color: rgba(13 13, 13, 0.7);
+}
+
+.itemWebsite a:hover {
+  text-decoration: underline;
+  color: rgb(13 13, 13);
+}
+
+.detailBodyWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.contactInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid #f1f2f3;
+  width: 59%;
+  text-align: justify;
+}
+
+.contactInfoBody {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.titleOnMiniModuleWrapper {
+  background-color: #f1f2f3;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.emailSequenceWrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid #f1f2f3;
+  width: 39%;
+}
+
+.titleAndTagWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.itemTag {
+  background-color: #5bbe55;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.ratingWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.pitchButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.episodesWrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 20rem;
+  overflow-y: scroll;
+  padding-right: 1rem;
+}
+
+.episodeWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.episodeWrapper:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.keywordsWrapper {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
+.keywordWrapper {
+  background-color: #5bbe55;
+  border-radius: 4px;
+  padding: 0 1rem;
+}
+
+.goTopWrapper {
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+.sequenceWrapper {
+}
+
+.sequenceHeader {
+}
